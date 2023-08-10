@@ -15,6 +15,9 @@ export function handleRoute(route: any) {
         sentButtonEl.style.backgroundColor = "#888888";
         mainEl.style.backgroundColor = "#ffc457";
         mainTitleEl.textContent = "Inbox";
+        mailButton1El.style.display = "";
+        mailButton2El.style.display = "";
+        mainTextEl.textContent = "";
       },
     },
     {
@@ -35,6 +38,9 @@ export function handleRoute(route: any) {
         sentButtonEl.style.backgroundColor = "#393939";
         mainEl.style.backgroundColor = "#ff9257";
         mainTitleEl.textContent = "Sent";
+        mailButton1El.style.display = "";
+        mailButton2El.style.display = "";
+        mainTextEl.textContent = "";
       },
     },
     {
