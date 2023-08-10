@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #127bb9;
+    height: 94px;
+    width: auto;
+    display: flex;
+}
+
+.header-img-container{
+    justify-self: center;
+    align-self: center;
+}
+
+.header-img{
+    height: 60px;
+}
+
+@media(min-width:960px){
+    .header-img{
+        height: 80px;
+        padding-left: 20px;
+    }
+}
+
+.fieldset{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-container{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 80%;
+    height: 44px;
+    margin: 0;
+    padding: 0 5px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media(min-width:960px){
+    .input{
+        font-size: 24px;
+        height: 60px;
+    }
+}
+
+.button-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+.button{
+    height: 44px;
+    width: 100%;
+    max-width: 240px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+@media(min-width:960px){
+    .button{
+        font-size: 24px;
+        height: 60px;
+    }
+}
+
+.main-body{
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:960px){
+    .main-body{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.sidebar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+@media(min-width:960px){
+    .sidebar{
+        flex-direction: column;
+        width: 300px;
+        background-color: #C4C4C4;
+        height: auto;
+    }
+}
+
+.inbox-container{
+    flex-grow: 1;
+}
+
+@media(min-width:960px){
+    .inbox-container{
+        flex-grow:inherit;
+        width: auto;
+        height: 100px;
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+.inbox{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    background-color: #393939;
+    color: #FFFFFF;
+}
+
+@media(min-width:960px){
+    .inbox{
+        font-size: 24px;
+    }
+}
+
+.sent-container{
+    flex-grow: 1;
+}
+
+@media(min-width:960px){
+    .sent-container{
+        flex-grow: inherit;
+        width: auto;
+        height: 100px;
+        padding: 20px;
+        padding-top: 10px;
+    }
+}
+
+.sent{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    background-color: #888888;
+    color: #FFFFFF;
+}
+
+@media(min-width:960px){
+    .sent{
+        font-size: 24px;
+    }
+}
+
+.main{
+    background-color:#ffc457;
+    padding: 20px 10px;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-title{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+button{
+    margin: 0;
+    padding: 0;
+}
+
+.main-mail{
+    border: solid 2px black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.mail-title{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mail-img{
+    width: 48px;
+}
+
+.main-text{
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+}
